@@ -13,7 +13,6 @@ export default function CallToActionSection() {
           </p>
         </div>
 
-        {/* --- Existing Dark Div --- */}
         <div className="bg-gray-900 rounded-lg shadow-lg px-8 py-16 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-bold text-white">Explore Our Talent Pool</h2>

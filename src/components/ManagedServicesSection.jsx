@@ -8,10 +8,8 @@ const ManagedServiceSection = () => {
   return (
     <section className="bg-white py-16">
       <div className="container mx-auto px-6">
-        {/* The main blue card */}
         <div className="bg-blue-600 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-8">
           
-          {/* Left Side: Title and Features */}
           <div className="text-white text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold">
               Start your outsourcing journey today

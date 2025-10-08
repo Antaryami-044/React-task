@@ -9,7 +9,6 @@ const profiles = [
   { name: 'Maria Garcia', title: 'SwiftUI Expert', company: 'Amazon', img: 'https://i.pravatar.cc/150?img=6' },
 ];
 
-// Duplicate the array for a seamless, continuous loop
 const duplicatedProfiles = [...profiles, ...profiles];
 
 export default function HeroSection() {
@@ -35,7 +34,6 @@ export default function HeroSection() {
         </div>
       </div>
       
-      {/* Right Side: Single Row Sliding Animation with Bigger Cards */}
       <div className="relative h-[320px] [mask-image:_linear-gradient(to_right,transparent_0,_black_10%,_black_90%,transparent_100%)]">
         <div className="absolute top-0 left-0 flex animate-scroll-x group">
           {duplicatedProfiles.map((profile, index) => (

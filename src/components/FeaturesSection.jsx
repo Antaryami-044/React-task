@@ -19,8 +19,7 @@ export default function FeaturesSection() {
           ))}
         </div>
       </div>
-      
-      {/* Right Side: Image Grid */}
+      {/* Right Side */}
       <div className="p-4 bg-white rounded-lg shadow-lg">
         <div className="grid grid-cols-4 gap-3">
           {Array.from({ length: 16 }).map((_, index) => (

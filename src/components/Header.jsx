@@ -11,7 +11,7 @@ const Header = () => {
   const profileRef = useRef(null);
   const navigate = useNavigate();
 
-  // Effect to close dropdowns when clicking outside
+  
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -31,7 +31,7 @@ const Header = () => {
     logout();
     setIsProfileOpen(false);
     setIsMobileMenuOpen(false);
-    navigate('/'); // Redirect to home page on logout
+    navigate('/');
   };
   
   const industries = ["Travel", "Automotive", "Banking", "Capital Markets", "Healthcare", "Digital Commerce", "View all"];
@@ -41,7 +41,6 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
-          {/* Logo (Isolated on the left) */}
           <div className="flex-shrink-0">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
               <h1 className="text-3xl font-bold text-blue-600">Talrn</h1>
