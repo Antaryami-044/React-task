@@ -2,6 +2,9 @@
 
 This project is a functional, responsive replica of the Talrn.com homepage, built with React and Tailwind CSS. It features a complete, multi-step user registration flow with real OTP (One-Time Password) email verification powered by a Node.js backend and the Resend API.
 
+![Project Screenshot](https://curved-crimson-xqqu9vghcx.edgeone.app/Screenshot%20(76).png)
+
+
 ---
 
 ## ## Features
